@@ -1,0 +1,23 @@
+<form action="/upload/single" method="post" enctype="multipart/form-data">
+    <input type="file" name="single"/>
+    <input type="text" name="title"/>
+    <button type="submit">업로드</button>
+</form>
+
+<form action="/upload/muti" method="post" enctype="multipart/form-data">
+    <input type="file" name="many" multiple/>
+    <input type="text" name="title"/>
+    <button type="submit">업로드</button>
+</form>
+
+<form action="/upload/field" method="post" enctype="multipart/form-data">
+    <input type="file" name="img1"/>
+    <input type="file" name="img2"/>
+    <input type="text" name="title"/>
+    <button type="submit">업로드</button>
+</form>
+
+<form action="/upload/none" method="post" enctype="multipart/form-data">
+    <input type="text" name="title"/>
+    <button type="submit">업로드</button>
+</form>
